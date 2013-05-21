@@ -8,9 +8,7 @@
 #import <netinet/in.h>
 #import <SystemConfiguration/SystemConfiguration.h>
 #import <CommonCrypto/CommonDigest.h>
-#import "Constants.h"
 #import <CommonCrypto/CommonHMAC.h>
-#import "Valuation.h"
 #import "ASIHTTPRequest.h"
 #import "SBJson.h"
 
