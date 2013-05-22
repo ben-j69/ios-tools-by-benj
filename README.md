@@ -52,3 +52,7 @@ Check if a mail is valid
 
 Get color from hex string
 + (UIColor*)colorWithHexString:(NSString*)hex;
+
+Replace euro html entity in string
++ (NSString*)replaceEuroInString:(NSString*)str;
+

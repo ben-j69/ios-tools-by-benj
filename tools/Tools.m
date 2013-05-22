@@ -255,4 +255,14 @@
                            alpha:1.0f];
 }
 
++(NSString*)replaceEuroInString:(NSString*)str
+{
+    @try {
+        return [str stringByReplacingOccurrencesOfString:@"&euro;" withString:@"€"];
+    }
+    @catch (NSException *exception) {
+        return str;
+    }
+}
+
 @end
