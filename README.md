@@ -56,3 +56,6 @@ Get color from hex string
 Replace euro html entity in string
 + (NSString*)replaceEuroInString:(NSString*)str;
 
+Get UIColor from hex string
++ (UIColor*)colorWithHexString:(NSString*)hex
+

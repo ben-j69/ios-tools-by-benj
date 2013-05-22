@@ -40,5 +40,6 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 +(BOOL) isValidEmail:(NSString *)checkString;
 +(UIColor*)colorWithHexString:(NSString*)hex;
 +(NSString*)replaceEuroInString:(NSString*)str;
++(UIColor*)colorWithHexString:(NSString*)hex;
 
 @end
