@@ -301,5 +301,9 @@
                            alpha:1.0f];
 }
 
++(BOOL)isAbleToCall
+{
+    return [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"tel:123456789"]];
+}
 
 @end

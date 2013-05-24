@@ -41,5 +41,6 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 +(UIColor*)colorWithHexString:(NSString*)hex;
 +(NSString*)replaceEuroInString:(NSString*)str;
 +(UIColor*)colorWithHexString:(NSString*)hex;
++(BOOL)isAbleToCall;
 
 @end

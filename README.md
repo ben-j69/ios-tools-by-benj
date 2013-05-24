@@ -59,3 +59,6 @@ Replace euro html entity in string
 Get UIColor from hex string
 + (UIColor*)colorWithHexString:(NSString*)hex
 
+Check if the device is able to make a call
++ (BOOL)isAbleToCall
+
