@@ -1,4 +1,4 @@
-tools-by-benj
+Tools for iOS by Ben-J
 =============
 
 Tools helper class for ios (iPhone, iPod, iPad)
