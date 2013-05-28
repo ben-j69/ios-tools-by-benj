@@ -42,5 +42,5 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 +(NSString*)replaceEuroInString:(NSString*)str;
 +(UIColor*)colorWithHexString:(NSString*)hex;
 +(BOOL)isAbleToCall;
-
++(BOOL)makeSimpleRequest:(NSString*)url;
 @end

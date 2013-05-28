@@ -62,3 +62,6 @@ Get UIColor from hex string
 Check if the device is able to make a call
 + (BOOL)isAbleToCall
 
+Call an url easily
++ (BOOL)makeSimpleRequest:(NSString*)url
+

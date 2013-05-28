@@ -306,4 +306,14 @@
     return [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"tel:123456789"]];
 }
 
++(BOOL)makeSimpleRequest:(NSString*)url
+{
+    NSLog(@"url = %@", url);
+    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[Tools encodeStringForUrl:url]];
+    NSURLResponse *response = nil;
+    NSError *error = nil;
+    [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+    return error == nil;
+}
+
 @end
