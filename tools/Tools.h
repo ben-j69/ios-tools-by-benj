@@ -22,7 +22,6 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 + (void) displayAlertWithMessage:(NSString *)message andTitle:(NSString*)title;
 +(BOOL) isNetworkAvailable;
-+(void) trackPage:(NSString*)page;
 +(NSString*) md5encode:(NSString*) str;
 +(NSString*)base64forInt:(int)theInt;
 +(NSString*)base64forString:(NSString*)theString;
@@ -43,4 +42,5 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 +(UIColor*)colorWithHexString:(NSString*)hex;
 +(BOOL)isAbleToCall;
 +(BOOL)makeSimpleRequest:(NSString*)url;
++(BOOL)isIpad;
 @end

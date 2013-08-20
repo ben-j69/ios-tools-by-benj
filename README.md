@@ -65,3 +65,5 @@ Check if the device is able to make a call
 Call an url easily
 + (BOOL)makeSimpleRequest:(NSString*)url
 
+Test if the device is an IPad
++(BOOL)isIpad

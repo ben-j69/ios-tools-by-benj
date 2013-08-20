@@ -57,11 +57,6 @@
     return (isReachable && !needsConnection);
 }
 
-+ (void) trackPage:(NSString*)page
-{
-    //[[[GAI sharedInstance] defaultTracker] sendView:page];
-}
-
 + (NSString*) md5encode:(NSString*) str
 {
     // Create pointer to the string as UTF8
@@ -314,6 +309,11 @@
     NSError *error = nil;
     [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
     return error == nil;
+}
+
++(BOOL)isIpad
+{
+    return UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
 }
 
 @end
